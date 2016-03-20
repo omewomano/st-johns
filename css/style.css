@@ -1,0 +1,572 @@
+a:link {color:#fff;}      /* unvisited link */
+a:visited {color:#fff;}  /* visited link */
+a:hover {color:#ccc;}  /* mouse over link */
+a:active {color:#fff;}
+a{text-decoration: none}
+.adminholder p a:link, ..home_desc p a:link {color:#337ab7;}      /* unvisited link */
+.adminholder p a:visited, .home_desc p a:visited {color:#337ab7;}  /* visited link */
+.adminholder p a:hover, .home_desc p a:hover {color:#f00;}  /* mouse over link */
+.adminholder p a:active, .home_desc p a:active {color:#337ab7;}
+.adminholder p a{text-decoration: none}
+body{font-family: sans-serif;}
+.container{
+    position: relative;
+    width: 90%;
+    height: 1280px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.head img{
+    width: 100%;
+    height: 100%;
+}
+
+.hnavbar{
+    
+    background-color: #101010;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #101010;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.navholder{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navholder ul li{
+    position: relative;
+    height: 40px;
+    width: 15%;
+    display:  inline-table;
+    list-style-type: none;
+    bottom: 5px;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+.placeholder{
+    position: relative;
+    width: 100%;
+    height: 862px;
+    padding-top: 4px;
+}
+
+.left{
+    position: relative;
+    width: 70%;
+    height: 820px;
+}
+
+.home_desc h3{
+    width: 100%;
+    text-align: center;
+    color: #337ab7;
+    font-weight: 100;
+}
+.home_desc p{
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.right{
+    position: absolute;
+    width: 27%;
+    height: 820px;
+    left: 72.4%;
+    bottom: 4.3%;
+}
+
+.news_top{
+    border: solid 2px #337ab7;
+    background-color: #337ab7;
+    width: 99%;
+    height: 40px;
+    text-align: center;
+    color:#eeeeee;
+    font-size: larger;
+}
+
+.news_top h4{margin-top: 10px}
+
+.news_body{
+    border: solid 1px #337ab7;
+    width: 99.5%;
+    height: 42%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden;
+}
+
+marquee{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.duty_top{
+    position: relative;
+    border: solid 2px #337ab7;
+    background-color: #337ab7;
+    width: 99%;
+    height: 40px;
+    text-align: center;
+    color:#eeeeee;
+    top: 3%;
+    font-size: larger;
+}
+.duty_top h4{margin-top: 10px}
+
+.duty_body{
+    position: relative;
+    border: solid 1px #337ab7;
+    width: 99.5%;
+    height: 42%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 2px;
+    top: 3%;
+    
+}
+.duty_body h4{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3%;
+}
+
+table{
+    width: 90%;
+    border-collapse:collapse;
+    margin-top: 8px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+th{width: 35%;}
+table, td, th{
+    border:1px solid #337ab7;
+    text-align: left;
+    padding-left: 4px
+}
+td{background-color: #FBF9CE;}
+th{background-color: pink;}
+
+caption{
+    text-align: center;
+    
+    background-color: #337ab7;
+    padding-top: 4px;
+}
+
+
+.foota{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #101010;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.foota p{
+    color: white;
+    text-align: center;
+    margin: 3px;
+    top: 25%;
+    position:relative;
+}
+
+/* CONTACT PAGE CSS BEGIS */
+.address{
+    position: relaive;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+}
+
+.address h1{
+    color: #337ab7;
+    margin: 0%;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.address h4{
+    margin: 0%;
+    margin-top: 5px;
+    color: #337ab7;
+    font-weight: 200;
+}
+
+.address p{
+    margin: 0%;
+    margin-top: 5px;
+    font-weight: 100;
+}
+    
+.map{
+    position: relaive;
+    border: solid 2px #337ab7;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+/* CONTACT PAGE CSS ENDS */
+/* gallery PAGE CSS begin */
+
+.left h1, .left h4{
+    color:#337ab7;
+    font-weight: 100;
+}
+
+.galleryholder{
+    width: 100%;
+    height: 85%;
+}
+.imageholder{
+    width: 99%;
+    margin-top: 10px;
+}
+
+.imageholder img{
+    width: 96px;
+    height: 96px;
+    border: solid 3px white;
+    border-radius: 5px;
+}
+
+.labstop h2, .classtop h2, .environtop h2, .studentstop h2{
+    padding-top: 1px;
+    font-weight: 100;
+}
+.labstop{
+    background-color: #A8518A;
+    width: 96%;
+    height: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -13px;
+}
+
+
+
+.labsbody{
+    border: solid 1px #C896B8;
+    width: 99.8%;
+    height: 120px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: #C896B8;
+    position: relative;
+    top: -19px;
+}
+
+.environtop{
+    background-color: #F58634;
+    width: 96%;
+    height: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 6px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:16%
+}
+
+
+.environbody{
+    border: solid 1px #FDD8B8;
+    width: 99.8%;
+    height: 120px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: #FDD8B8;
+    position:relative;
+    top: -19px;
+}
+
+.studentstop{
+    background-color: #F7ADAF;
+    width: 96%;
+    height: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 6px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:34%
+}
+
+
+
+.studentsbody{
+    border: solid 1px #FCE1DF;
+    width: 99.8%;
+    height: 120px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: #FCE1DF;
+    position: relative;
+    top: -19px;
+}
+
+
+
+.classtop{
+    background-color: #EC268F;
+    width: 96%;
+    height: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 6px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:52%
+}
+
+
+
+.classbody{
+    border: solid 1px #F8C1D9;
+    width: 99.8%;
+    height: 120px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: #F8C1D9;
+    position:relative;
+    top: -19px;
+}
+
+/* gallery PAGE CSS ends */
+
+/* admin PAGE CSS start */
+.adminholder{
+    height: 100%;
+    text-align: justify;
+    margin-top: 6%
+}
+
+.adminholder h1, .adminholder h4{
+    margin: 0px;
+    margin-bottom: 4px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+
+.adminholder p{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.organogram{
+    margin-top: 2.5%;
+    text-align: center;
+    width: 100%;
+    height: 58%;
+}
+
+.organogram img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.organodesc{
+    color: #337ab7;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 4px;
+    font-weight: 100;
+}
+/* admin PAGE CSS ends */
+/* staff PAGE CSS start */
+
+.staffholder{
+    margin-top: 6px;
+    position: absolute;
+    width: 101%;
+    height: 650px;
+    border: dashed 1px #337ab7;
+    border-radius: 25px;
+}
+.corpers{
+    text-align: center;
+    font-weight: 100;
+    color: #ddd;
+    margin:6px;
+    background-color:green; 
+    border: solid 2px green;
+    border-radius: 12px;
+}
+
+.formmasters{
+    width: 34%;
+    height: 100%;
+    position: absolute;
+    left:64.7%;
+    top: 0.009%;
+    padding-top: 5px;
+}
+.formmasters div h4{
+    border: solid 2px #337ab7;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 12px;
+    padding-top: 4px;
+    background-color: rgba(6,6,6, 0.2);
+}
+
+/* foldables CSS begins */
+.jssonetop, .jsstwotop, .jssthreetop, .ssonetop, .sstwotop, .ssthreetop{
+    border: solid 3px #337ab7;;
+    width: 100%;
+    height: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.jssone, .jsstwo, .jssthree, .ssone, .sstwo, .ssthree{
+    border: solid 3px #337ab7;
+    border-top: solid 1px #337ab7;
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+.jssone{
+    display: block;
+}
+
+.formmasters div p{
+    color: #fff;
+    margin: 0px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.formmasters div table tr th{ width:50%;
+    background-color: #666
+}
+.formmasters div table tr td{ width:50%;
+    background-color: #bbb
+}
+/* foldables CSS ends */
+.staffsprof{
+    width: 62%;
+    height: 100%;
+    overflow: auto;
+}
+.staffid{
+    position: relative;
+    height: 100px;
+    border-radius: 12px;
+}
+.staffimg{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border: solid 2px #337ab7;
+    top: 3%;
+    left: 2%;
+    overflow: hidden;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: rgba(6,6,6, 0.2);
+    cursor: help;
+}
+
+.staffimg img, .staffimgr img{
+    width: 100%;
+    height: 100%;
+    border: solid 2px rgba(6,6,6,0.2)
+}
+
+
+.staffinfo{
+    border: solid 2px #337ab7;
+    position:absolute;
+    left: 21%;
+    width: 250px;
+    height: 90px;
+    margin-top: 0.5%;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgba(6,6,6, 0.2);
+    display: none;
+}
+
+.staffidr{
+    position: relative;
+    height: 100px;
+    float: right;
+    right: 20%;
+    top:-100px;
+}
+
+.staffimgr{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border: solid 2px #337ab7;
+    top: 3%;
+    float: right;
+    overflow: hidden;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgba(6,6,6, 0.2);
+    cursor: help;
+}
+
+.staffinfor{
+    border: solid 2px #337ab7;
+    position:absolute;
+    right: 3px;
+    width: 250px;
+    height: 90px;
+    top: 3px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: rgba(6,6,6, 0.2);
+    display: none;
+}
+
+/* staff PAGE CSS ends */
